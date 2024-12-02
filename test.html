@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <title>New Customer Form</title>
+    <link href="test.css" rel="stylesheet">
+   
+    <body>
+      <div id="menu-div"></div>
+      <br><br>
+      <fieldset>
+        <legend>YOUR DETAILS ARE ENCRYPTED</legend>
+      </fieldset>
+      <h1>New Customer Form</h1>
+      <form action="test.php" method="POST">
+        <div id="form-div">
+        <table>
+          
+          <tr>
+            <td>First Name</td>
+            <td width="45px"></td>
+            <td>Second Name</td>
+          </tr>
+
+          <tr>
+            <td><input type="text" name="first_name" required></td>
+            <td width="45px"></td>
+            <td><input type="text" name="second_name" required></td>
+          </tr>
+
+          <tr>
+            <td>E-mail</td>
+            <td width="45px"></td>
+            <td>Street Address</td>
+          </tr>
+
+          <tr>
+            <td><input type="email" name="email" required></td>
+            <td width="45px"></td>
+            <td><input type="text" name="street_address" required></td>
+          </tr>
+
+          <tr>
+            <td id="c">City</td>
+            <td width="45px"></td>
+            <td>State/Province</td>
+          </tr>
+
+          <tr>
+            <td><input type="text" name="city" required></td>
+            <td width="45px"></td>
+            <td><input type="text" name="state" required></td>
+          </tr>
+
+          <tr>
+            <td>Zip Code</td>
+            <td width="45px"></td>
+            <td>Country</td>
+          </tr>
+
+          <tr>
+            <td><input type="number" name="zip_code" required)></td>
+            <td width="45px"></td>
+            <td><input type="text" name="country" required></td>
+          </tr>
+        </table>
+      </div>
+        <br><br>
+        <input type="submit" value="SUBMIT DETAILS" id="submit-button">
+      </form><br><br>
+      <footer><h5>2024 PORTAL PORT. ALL RIGHTS RESERVED</h5></footer>
+    </body>
+  </head>
+</html>

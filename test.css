@@ -1,0 +1,38 @@
+body{
+  position: center;
+  background-color:cornsilk;
+}
+#menu-div{
+  background-color: brown;
+  height: 50px;
+}
+input{
+  color: red;
+}
+#form-div{
+  background-color: brown;
+  width: 400px;
+  height: 200px;
+  align-items: center;
+  position: relative;
+  margin-left: 400px;
+}
+h1{
+  color: brown;
+  margin-left: 450px;
+}
+#submit-button{
+  margin-left: 540px;
+}
+footer{
+  color: white;
+  align-content: center;
+  background-color: brown;
+  height: 200px;
+}
+h5{
+  margin-left: 500px;
+}
+legend{
+  color: brown;
+}
